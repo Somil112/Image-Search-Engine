@@ -18,3 +18,16 @@ Implementation of Image Search Engine using Python and OpenCV
   
   
 ## Usage:
+
+    python ime.py --dataset dataset-location-directory --index saved-features.csv
+    python search.py --result-path input-path --query abc.jpeg --index saved-features.csv
+    
+* --dataset : Location of your dataset
+* --index : Location and name of the csv file where you'll store the features of all images
+* --result-path : Location of your dataset
+* --query : Image query
+
+
+   
+    
+ 
