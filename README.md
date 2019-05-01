@@ -5,16 +5,24 @@ Implementation of Image Search Engine using Python and OpenCV
 
 ### colordescriptor.py
   Used to generate the features for each image.
+  
+____
 
 ### ime.py:
   This is used to generate the index.csv which stores all the feature scores of the input image.
   In basic terminologies, it is used to train the image search engine given the dataset.
+
+____
   
 ### searcher.py
   Helper file for the search.py
   
+____
+  
 ### search.py
   This file takes input your image and gives the output results.
+  
+____
   
   
 ## Usage:
